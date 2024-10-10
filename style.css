@@ -152,7 +152,7 @@ body{
 }
 
 .ins-content h1, p {
-    text-align: center;
+    text-align: left;
     margin-top: 30px;
 }
 
