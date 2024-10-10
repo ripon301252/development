@@ -150,8 +150,13 @@ body{
     margin: 0 auto;
 }
 
-.ins-content h1, p {
-    text-align: left;
+.ins-content h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ins-content  p {
+    text-align: center;
     margin-top: 30px;
 }
 
