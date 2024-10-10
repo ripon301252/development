@@ -11,7 +11,7 @@ body{
 .nav{
     width: 1300px;
     height: 70px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -42,14 +42,18 @@ body{
 .banner-container{
     width: 1339px;
     height: 536px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-image: url(assets/Hero-bg.png);
     margin: 0 auto;
     margin-top: 30px;
     text-align: center;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 30px 0;
 }
 .image{
-    /* text-align: center; */
+    text-align: center;
     margin-bottom: 32px;
 }
 
@@ -64,6 +68,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     margin-top: 32px;
+    opacity: 0.8;
 }
 
 .banner-container button{
@@ -82,15 +87,15 @@ body{
 /* Development section styles */
 .development-container{
     width: 1140px;
-    height: 1393px;
-    border: 2px solid red;
+    height: 1015px;
+    /* border: 2px solid red; */
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .dev-text{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 122px;
 }
 
 .dev-text h1{
@@ -99,10 +104,8 @@ body{
 .dev-text p{
     width: 850px;
     height: 52px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
-    
-
 }
 
 .text-pic{
@@ -112,7 +115,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .text-pic p{
@@ -130,3 +133,223 @@ body{
 .right{
     margin: 0 40px;
 }
+
+ /* Inspiration section styles */
+.inspiration-container{
+    width: 1140px;
+    height: 845px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    /* margin-top: 30px; */
+    
+}
+
+.ins-content{
+    width: 852px;
+    height: 130px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+.ins-content h1, p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ins-video{
+    width: 1090px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+/* My current target section styles */
+.current-properties{
+    width: 1080px;
+    height: 276px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    
+}
+.current-target-container{
+    width: 1140px;
+    height: 480px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.current-text{
+    text-align: center;
+}
+
+.current-text p{
+    margin: 0 200px;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+
+.current-properties{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.current-left{
+    width: 364px;
+    height: 232px;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+    background-color: #f5e3de;
+    padding: 20px;
+}
+
+.current-left img{
+    margin-bottom: 20px;
+}
+.current-left h5{
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.current-left p{
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.current-left span a{
+    color: #000000;   
+}
+
+
+
+
+.current-middle{
+    width: 364px;
+    height: 232px;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+    background-color: #e3e5e9;
+    padding: 20px;
+}
+
+.current-middle img{
+    margin-bottom: 20px;
+}
+.current-middle h5{
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.current-middle p{
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.current-middle span a{
+    color: #000000;   
+}
+
+
+
+
+.current-right{
+    width: 364px;
+    height: 232px;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+    background-color: #f5e3de;
+    padding: 20px;
+}
+
+.current-right img{
+    margin-bottom: 20px;
+}
+.current-right h5{
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.current-right p{
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.current-right span a{
+    color: #000000;   
+}
+
+
+/* need support section styles */
+.need-support-container{
+    width: 1140px;
+    height: 320px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.support h1{
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 78px;
+}
+
+.support p{
+    color: #ffffff;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+.input-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.input input{
+    width: 500px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 20px;
+}
+
+.btn-btn button{
+    padding: 12px 25px;
+    font-size: 25px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 2px;
+}
+
+/* footer section styles */
+#footer{
+    width: 1140px;
+    height: 38px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background-color: #f5e3de;
+    padding: 10px 0;
+}
+
+.linkedin{
+    margin: 0 15px;
+}
+
