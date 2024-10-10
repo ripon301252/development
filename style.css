@@ -221,6 +221,7 @@ body{
     font-size: 14px;
     text-align: left;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .current-left span a{
@@ -251,6 +252,7 @@ body{
     font-size: 14px;
     text-align: left;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .current-middle span a{
@@ -281,6 +283,7 @@ body{
     font-size: 14px;
     text-align: left;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .current-right span a{
@@ -309,6 +312,7 @@ body{
     text-align: center;
     margin-top: 80px;
     padding-top: 78px;
+    margin-bottom: 25px;
 }
 
 .support p{
